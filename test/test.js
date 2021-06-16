@@ -230,7 +230,7 @@ tape( 'if an environment supports `Symbol.iterator`, a queue instance iterator i
 	var i;
 
 	FIFO = proxyquire( './../lib/main.js', {
-		'@stdlib/symbol/iterator': '__ITERATOR_SYMBOL__'
+		'@stdlib/symbol-iterator': '__ITERATOR_SYMBOL__'
 	});
 
 	q = new FIFO();
@@ -260,7 +260,7 @@ tape( 'if an environment does not support `Symbol.iterator`, a queue instance it
 	var q;
 
 	FIFO = proxyquire( './../lib/main.js', {
-		'@stdlib/symbol/iterator': false
+		'@stdlib/symbol-iterator': false
 	});
 
 	q = new FIFO();
