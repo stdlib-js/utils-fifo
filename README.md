@@ -332,6 +332,12 @@ len = queue.length;
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/utils/stack`][@stdlib/utils/stack]: stack.
+
 </section>
 
 <!-- /.related -->
@@ -392,6 +398,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/utils-fifo/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/utils/stack]: https://github.com/stdlib-js/utils-stack
+
+<!-- </related-links> -->
 
 </section>
 
