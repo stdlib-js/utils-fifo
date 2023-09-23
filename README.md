@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import fifo from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-fifo@esm/index.mjs';
+import fifo from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-fifo@v0.1.0-esm/index.mjs';
 ```
 
 #### fifo()
@@ -274,7 +274,7 @@ var o = queue.toJSON();
 <body>
 <script type="module">
 
-import fifo from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-fifo@esm/index.mjs';
+import fifo from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-fifo@v0.1.0-esm/index.mjs';
 
 var queue;
 var iter;
