@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import fifo from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-fifo@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-fifo/tags). For example,
+
+```javascript
 import fifo from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-fifo@v0.2.0-deno/mod.js';
 ```
 
@@ -269,7 +274,7 @@ var o = queue.toJSON();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import fifo from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-fifo@v0.2.0-deno/mod.js';
+import fifo from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-fifo@deno/mod.js';
 
 var queue;
 var iter;
